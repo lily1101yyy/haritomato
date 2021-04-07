@@ -113,7 +113,7 @@ input {
 .banner-text{
     width: 100%;
     margin-top: 20%;
-    margin-left: 7.5% ;
+    /* margin-left: 7.5% ; */
     /* why 7.5%? the banner width is 85%. the rest 15% will be devided by 2 since there are margins on the left and right sides */
 }
 
@@ -135,6 +135,7 @@ input {
     color: #ffffff;
     background-color: #312a26;
     padding: 10px 20px;
+    margin-left: 10px;
     text-decoration: none;
     font-weight: 800;
     text-transform: uppercase;
