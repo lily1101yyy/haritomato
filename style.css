@@ -209,12 +209,16 @@ input {
     width: 85%;
     margin: 0 auto;
     padding-top: 10px;
-    text-align: justify;
 }
 
 
 .item1 {
     margin-bottom: 10%;
+}
+
+.item1 p,
+.item2 p {
+    text-align: justify;
 }
 
 table {
