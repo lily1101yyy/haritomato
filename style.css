@@ -178,7 +178,7 @@ input {
 .merch-gallary{
     width: 85%;
     overflow: auto;
-    margin: 0 auto 5%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -238,7 +238,7 @@ td {
 
 .contact-container li{
     display: inline-block;
-    padding-right: 20px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
