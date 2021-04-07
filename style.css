@@ -1,0 +1,260 @@
+
+/* FONT FAMILIES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Oswald', sans-serif; */
+
+/* Reset - remove all default styles  */
+* { /* universal selector*/
+    color: #312a26;
+    /* remove all spaces between elements */
+    margin: 0;
+    /* remove all spaces inside the element */
+    padding: 0;
+    /* include the padding and border on the total width of an element  */
+    box-sizing: border-box;
+    /* remove all lines  */
+    border: none;
+    outline: none;
+    /* i can hightkight the border with outline if its needed */
+}
+
+/* primary text  */
+/* serector  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* rule  */
+    /* property: value; */
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/* secondary text  */
+p,
+span,
+a,
+label,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+
+.nav {
+    width: 85%;
+    /* center the block element  */
+    /* div is a block element. it will ocupy the entire line. even if its width is set to 400px, it will be smaller but still ocupy the entire line. margin-right auto is automaticaly the right side is margined so that the element will be on the left.  */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* automatically add a scrollbar  */
+    /* if you dont put the rule overflow, the scrollbar will be shown for the entire page.  */
+    overflow: auto;
+}
+
+/* combinator  */
+/* parent(.nav) child(h1) - only the child will be affected  */
+.nav h1{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav a:hover,
+.nav a:active {
+    color: lightgray;
+}
+
+.nav h1 a {
+    text-transform: capitalize;
+}
+
+
+/* Banner area  */
+.banner{
+    height: 500px;
+    background-image: url("images/img1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    overflow: auto;
+    /* margin-bottom: 5%; */
+    /* 5% of the width of the banner */
+}
+
+.banner-text{
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 7.5% ;
+    /* why 7.5%? the banner width is 85%. the rest 15% will be devided by 2 since there are margins on the left and right sides */
+}
+
+.banner-text h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+
+.banner-text i{
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.banner-text a{
+    color: #ffffff;
+    background-color: #312a26;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Merchandise Area */
+
+.menu,
+.price,
+.access,
+.contact {
+    padding-top: 80px;
+}
+
+.div-title{
+    text-align: center; 
+    margin-bottom: 5%;
+}
+ 
+.div-title span{
+    color: #c7a17a;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.div-title h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.div-title hr{
+    width: 10%;
+    height: 4px;
+    background-color: #c7a17a;
+    margin: 0 auto;
+}
+
+/* merch gallary */
+.merch-gallary{
+    width: 85%;
+    overflow: auto;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+
+.merch-gallary h3{
+    padding-top: 10px;
+}
+
+.merch-item{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+.merch-item img { 
+    width: 85%;
+    position: center;
+}
+
+.merch-item li {
+    width: 85%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    list-style: square;
+}
+
+.merch-item p{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+.item1 {
+    margin-bottom: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 20px auto;
+}
+
+td {
+    border: solid 1px;
+    padding: 5px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact-container li{
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+/* Fotter 2 Area  */
+
+.footer2 {
+    background-color: white;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright{
+    text-align: right;
+    margin: 5px　5px;
+}
+
+.copyright p{
+    color: black;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
