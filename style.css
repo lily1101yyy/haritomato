@@ -101,7 +101,7 @@ input {
 /* Banner area  */
 .banner{
     height: 500px;
-    background-image: url("img1.jpg");
+    background-image: url("https://github.com/lily1101yyy/hari/blob/main/img1.jpg?raw=true");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center ;
@@ -209,6 +209,7 @@ input {
     width: 85%;
     margin: 0 auto;
     padding-top: 10px;
+    text-align: justify;
 }
 
 
