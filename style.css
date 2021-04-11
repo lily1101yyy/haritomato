@@ -128,7 +128,8 @@ input {
     color: #ffffff;
     font-size: 5vw;
     font-weight: 800;
-    padding-right: 10px;
+    margin-right: 20px;
+    padding-top: 20px;
 }
 
 
@@ -152,7 +153,7 @@ input {
     background-color: #312a26;
     padding: 10px 30px;
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-decoration: none;
     font-weight: 800;
     display: inline-block;
